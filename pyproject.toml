@@ -1,0 +1,19 @@
+[project]
+authors = [{name = "Bashirul Alam", email = "65447105+Bashirulalam@users.noreply.github.com"}]
+dependencies = []
+name = "introduction_to_python"
+requires-python = ">= 3.11"
+version = "0.1.0"
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["win-64"]
+
+[tool.pixi.pypi-dependencies]
+introduction_to_python = { path = ".", editable = true }
+
+[tool.pixi.tasks]
