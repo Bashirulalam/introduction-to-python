@@ -3,3 +3,9 @@
 !.pixi/config.toml
 tensorflow/
 tensorflow_core/
+src/my_project/tensorflow/
+src/my_project/tensorflow_core/
+*.dll
+*.so
+*.dylib
+*.pyd
