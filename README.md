@@ -35,31 +35,13 @@ The goal is to classify images into their respective categories using different 
 
 📊 Results
 Model	Accuracy	Notes
-Logistic Regression	~75%	Limited ability to capture image features
-SVM	~82%	Better than LR, but slow on large datasets
-CNN	90%+	Best results, strong performance in image classification
+1. Logistic Regression	~75%	Limited ability to capture image features
+2. SVM	~82%	Better than LR, but slow on large datasets
+3. CNN	90%+	Best results, strong performance in image classification
 
-🚀 How to Run
-
-Clone this repository:
-
-git clone https://github.com/your-username/fashion-mnist-classification.git
-
-cd fashion-mnist-classification
-
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Run the notebook:
-
-jupyter notebook fashion_mnist.ipynb
 
 📌 Future Improvements
 
 1. Try more advanced architectures (ResNet, EfficientNet)
 2. Apply data augmentation for better generalization
-
-🎯 Perform hyperparameter tuning (learning rate, batch size, optimizer)
+3. Perform hyperparameter tuning (learning rate, batch size, optimizer)
