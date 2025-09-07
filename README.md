@@ -1,25 +1,23 @@
-Fashion-MNIST Classification
-
+👗 Fashion-MNIST Classification
 📌 Project Overview
 
-This project focuses on building and evaluating machine learning and deep learning models for the Fashion-MNIST dataset, which contains 70,000 grayscale images of fashion items (10 classes such as T-shirt, trouser, bag, shoe, etc.).
-The goal is to classify the images into their respective categories using different approaches.
+This project focuses on building and evaluating machine learning and deep learning models for the Fashion-MNIST dataset, which contains 70,000 grayscale images of clothing items across 10 classes (e.g., T-shirt, trouser, bag, shoe, etc.).
+The goal is to classify images into their respective categories using different approaches.
 
 🛠️ Libraries Used
 
-NumPy – Numerical computations
+🧮 NumPy – Numerical computations
 
-Pandas – Data handling
+🗂️ Pandas – Data handling
 
-Matplotlib – Data visualization
+📊 Matplotlib – Data visualization
 
-Scikit-learn – Machine learning algorithms (Logistic Regression, SVM, etc.)
+🤖 Scikit-learn – ML algorithms (Logistic Regression, SVM, etc.)
 
-TensorFlow / Keras – Deep learning models (ANN, CNN)
+🧠 TensorFlow / Keras – Deep learning models (ANN, CNN)
 
 ⚙️ Methods Implemented
-
-Exploratory Data Analysis (EDA)
+🔍 Exploratory Data Analysis (EDA)
 
 Visualized sample images
 
@@ -27,17 +25,27 @@ Checked class distribution
 
 Created heatmaps and bar plots
 
-Machine Learning Models
+🤖 Machine Learning Models
 
 Logistic Regression
 
 Support Vector Machine (SVM)
 
-Deep Learning Models
+🧠 Deep Learning Models
 
-Convolutional Neural Network (CNN) with multiple layers (Conv2D, MaxPooling, Dense, Dropout)
+Artificial Neural Network (ANN)
 
-Evaluation Metrics
+Convolutional Neural Network (CNN):
+
+Conv2D
+
+MaxPooling
+
+Dense
+
+Dropout
+
+📏 Evaluation Metrics
 
 Accuracy
 
@@ -46,15 +54,11 @@ Confusion Matrix
 Classification Report (Precision, Recall, F1-score)
 
 📊 Results
-
-Logistic Regression: Moderate performance, limited ability to capture image patterns
-
-SVM: Better than logistic regression, but computationally expensive on large datasets
-
-ANN: Improved accuracy over classical ML models
-
-CNN: Achieved the highest accuracy (around 90%+), demonstrating strong performance in image classification
-
+Model	Accuracy	Notes
+Logistic Regression	~75%	Limited ability to capture image features
+SVM	~82%	Better than LR, but slow on large datasets
+ANN	~86%	Outperforms classical ML models
+CNN	90%+	Best results, strong performance in image classification
 🚀 How to Run
 
 Clone this repository:
@@ -74,8 +78,8 @@ jupyter notebook fashion_mnist.ipynb
 
 📌 Future Improvements
 
-Try more advanced architectures (ResNet, EfficientNet)
+⚡ Try more advanced architectures (ResNet, EfficientNet)
 
-Use data augmentation for better generalization
+🔄 Apply data augmentation for better generalization
 
-Hyperparameter tuning (learning rate, batch size, optimizer)
+🎯 Perform hyperparameter tuning (learning rate, batch size, optimizer)
