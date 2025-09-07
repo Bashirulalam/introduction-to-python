@@ -24,8 +24,7 @@ The goal is to classify images into their respective categories using different 
 
 1. Logistic Regression
 2. Support Vector Machine (SVM)
-3. Artificial Neural Network (ANN)
-4. Convolutional Neural Network (CNN):
+3.  Convolutional Neural Network (CNN):
 
 📏 Evaluation Metrics
 
