@@ -34,9 +34,9 @@ The goal is to classify images into their respective categories using different 
 
 📊 Results
 Model	Accuracy	Notes
-1. Logistic Regression	~75%	Limited ability to capture image features
-2. SVM	~82%	Better than LR, but slow on large datasets
-3. CNN	90%+	Best results, strong performance in image classification
+1. Logistic Regression	84%	Limited ability to capture image features
+2. SVM	88%	Better than LR, but slow on large datasets
+3. CNN	90%	Best results, strong performance in image classification
 
 
 📌 Future Improvements
